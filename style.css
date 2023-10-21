@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.cabecalho {
+    background-color: #7c71ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    height: 100px;
+}
+li {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+}
+.info-usuario {
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.nome {
+    text-transform: uppercase;
+}
+
+.imagens{
+    background-color: #d7e2ff;
+    width: Hug (1,346px);
+    height: Hug (284px);
+    top: 156px;
+    left: 47px;
+    gap: 70px;
+}
+
+.lista-fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo1{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #200065;
+    
+}
+
+.titulo2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #200065;
+}
+
+.clique{
+    width: 209px;
+    height: 22px;
+    top: 475px;
+    left: 615px;
+
+}
+
+#clientes{
+    width: 1440px;
+    height: 616px;
+    background-color:#AEBFEB;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.titulocli{
+    width: 218px;
+    height: 43px;
+    top: 37px;
+    left: 610px;
+    color: #200065;
+    text-align: center;
+}
+
+.parag1{
+    width: 427px;
+    height: 427px;
+
+}
+
+.parag2{
+    width: 427px;
+    height: 427px;
+
+}
+
+#pedidos{
+    width: 1440px;
+    height: 441px;
+    background-color: #D7E2FF;
+}
+
+#faleConosco{
+    width: 1440px;
+    height: 685px;
+    background-color: #AEBFEB;
+}
+
+.rodape{
+    width: 1440px;
+    height: 108px;
+    background-color: #3F3F3F;
+}
+
+.primeiradiv{
+    width: 427px;
+    height: 427px;
+    background-color:#D4E0FF;
+}
+
+.segundadiv{
+    width: 427px;
+    height: 427px;
+}

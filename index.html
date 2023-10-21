@@ -5,16 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">       <!--adaptação a qualquer tela-->
         <title>Meu site</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css" integrity="sha512-aupidr80M36SeyviA/hZ2uEPnvt2dTJfyjm9y6z1MgaV13TgzmDiFdsH3cvSNG27mRIj7gJ2gNeg1HeySJyE3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <header>
-            <div>
-                <p><strong>Zíndizi Pimentel</strong></p>
+        <header class="cabecalho"> 
+            <div class="info-usuario">
+                <p><strong class="nome">Zíndizi Pimentel</strong></p>
                 <small>Último login em 08/10/2023 as 22:49</small>
             </div>
-            <nav>
-                <ul>
+
+            <nav id="meu-id" class="navegacao-menu">
+                <ul class="lista-menu">
                     <li>
                         <a href="#inicio">
                            Início
@@ -40,11 +46,11 @@
             </nav>
         </header>   
         <main>                               <!--parte principal-->
-            <section>
-                <h1>Nova Coleção</h1>
-                <h2>Ganhe <b>10 %</b> off na 1 compra</h2>
+            <section class="imagens">
+                <h1 class="titulo1"><b>Nova Coleção</h1></b>
+                <h2 class="titulo2">Ganhe <b>10 %</b> off na 1 compra</h2>
 
-                <ol>
+                <ol class="lista-fotos">
                     <li>
                         <figure>
                             <img src="./img/WhatsApp Image 2023-10-08 at 22.15.53.jpeg" alt="Mulher de cabelo cacheado com roupa estampada"/>
@@ -69,22 +75,39 @@
                         </figure>
                     </li>
                 </ol>
-                <a href="https://www.cea.com.br" target="_blank"> Clique aqui para conferir </a>          <!--a target abre o link em outra aba-->
+                <a class="clique" href="https://www.cea.com.br" target="_blank"> Clique aqui para conferir </a>          <!--a target abre o link em outra aba-->
             </section>
 
             <section id="clientes">
-                <h3>
+                <h3 class="titulocli">
                     Nossos clientes
                 </h3>
                 <article>
-                    <h4>Maria Luisa</h4>
-                    <h5><i>Avaliado em 05/03/2023</i></h5>
-                    <p>
-                    gfjhgkjklkçgfffffffffffffffff <br/>
-                    gfjhgkjklkçgfffffffffffffffff <br/>
-                    gfjhgkjklkçgfffffffffffffffff <br/>
-                    gfjhgkjklkçgfffffffffffffffff <br/>
-                    </p>
+                    <div class="primmeiradiv"> 
+                        <h4>Maria Luisa</h4>
+                        <h5><i>Avaliado em 05/03/2023</i></h5>
+                        <p class="parag1">
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="clientes">
+                <article>
+                    <div class="segundadiv">
+                        <h4>Joao jhdushudc</h4>
+                        <h5><i>Avaliado em 05/03/2023</i></h5>
+                        <p class="parag2">
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        gfjhgkjklkçgfffffffffffffffff <br/>
+                        </p>
+                    </div>
                 </article>
             </section>
 
@@ -137,7 +160,7 @@
         </main>
 
         <footer>
-            <p>
+            <p class="rodape">
             &copy; Copyright l 2023 l Todos os direitos reservados
             </p>
         </footer>
